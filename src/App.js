@@ -8,11 +8,11 @@ class App extends Component {
         <div className="App">
           <header className="App-header">
           </header>
-          <body>
+          <main>
           <button onClick={() => request('https://api.openbrewerydb.org/breweries')}>
             request
           </button>
-          </body>
+          </main>
           <footer/>
         </div>
     );
