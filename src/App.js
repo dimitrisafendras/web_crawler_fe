@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import {PrimaryButton} from './library';
+import {
+    PrimaryButton,
+    Grid,
+} from './library';
 
 import './App.scss';
 
@@ -36,6 +39,12 @@ class App extends Component {
                         </div>
                     )}
                 </div>
+                <Grid
+                    id={'layout'}
+                    rows={4}
+                    columns={4}
+
+                />
                 <div id={'app-footer'}>
                     LOL
                 </div>
