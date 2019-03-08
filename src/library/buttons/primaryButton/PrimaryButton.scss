@@ -4,4 +4,12 @@
   height: 100px;
   width: 100px;
   background-color: $primary;
+  border-radius: 20px;
+  color: $white;
+  font-size: 14px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-style: solid;
+  &:hover{
+    cursor: pointer;
+  }
 }

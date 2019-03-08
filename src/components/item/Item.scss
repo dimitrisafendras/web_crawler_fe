@@ -3,9 +3,12 @@
   background-color: $primary;
   border-radius: 4px;
   padding: 4px;
-  box-shadow: 0 0 20px 0 rgba(0,0,0,0.75);
+  box-shadow: 0 0 20px 0 $boxShadow;
+  color: $white;
+  font-size: 14px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   &:hover{
-    box-shadow: 0 0 20px 0 rgba(0,0,0,1);
+    box-shadow: 0 0 20px 0 $boxShadowHover;
     transform: scale(1.1);
   }
 }
