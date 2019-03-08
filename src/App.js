@@ -31,6 +31,7 @@ class App extends Component {
     return (
       <div className="App">
         <Grid
+          minHeight={'100vh'}
           id={'layout'}
           columns={4}
           areas={[

@@ -12,6 +12,7 @@ export const Grid = (
     id,
     className = '',
     height = 'auto',
+    minHeight = '',
     flow = 'row',
     minRowHeight = '20px',
     rows = 1,
@@ -29,6 +30,7 @@ export const Grid = (
     className={`Grid ${className}`}
     style={{
       'height': height,
+      'minHeight': minHeight,
       'gridAutoFlow': flow,
       'gridAutoRows': `minmax(${minRowHeight}, auto)`,
       'gridTemplateRows': getFr(rows),

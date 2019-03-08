@@ -13,13 +13,14 @@ export const Item = (
     width={'100%'}
     className={`Item ${className}`}
   >
-    <Cell>
+    //TODO refactor below with map and destructured data
+    <Cell centerContent>
       {`${data.name}`}
     </Cell>
-    <Cell>
+    <Cell centerContent>
       {`${data.city}`}
     </Cell>
-    <Cell>
+    <Cell centerContent>
       {`${data.country}`}
     </Cell>
   </Grid>;
