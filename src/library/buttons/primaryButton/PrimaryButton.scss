@@ -1,5 +1,7 @@
+@import '../../../utils/Colors';
+
 .PrimaryButton {
   height: 100px;
   width: 100px;
-  background-color: #797e83;
+  background-color: $grey;
 }
