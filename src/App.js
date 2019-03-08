@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import {
     PrimaryButton,
-    Grid,
+    Grid, Cell,
 } from './library';
 
 import './App.scss';
@@ -43,8 +43,12 @@ class App extends Component {
                     id={'layout'}
                     rows={4}
                     columns={4}
-
-                />
+                >
+                    <Cell
+                        height={'100px'}
+                        width={'100px'}
+                    />
+                </Grid>
                 <div id={'app-footer'}>
                     LOL
                 </div>
