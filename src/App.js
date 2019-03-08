@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import {PrimaryButton} from './library';
 
 import './App.scss';
-import GridContainer from './library/gridContainer';
 
 class App extends Component {
     constructor(props){
@@ -21,22 +21,24 @@ class App extends Component {
         const data = this.state.data;
         return (
             <div className="App">
-                <GridContainer id={'App-header'}>
+                <div id={'app-header'}>
                     LOL
-                </GridContainer>
-                <GridContainer id={'App-main'}>
-                    <button onClick={() => this.handleClick()}>
-                        request
-                    </button>
+                </div>
+                <PrimaryButton
+                    id={'fetch-btn'}
+                    text={'Click'}
+                    onClick={()=>this.handleClick()}
+                />
+                <div id={'app-main'}>
                     {data.map(i =>
                         <div key={i.id}>
                             {`${i.name}`}
                         </div>
                     )}
-                </GridContainer>
-                <GridContainer id={'App-footer'}>
+                </div>
+                <div id={'app-footer'}>
                     LOL
-                </GridContainer>
+                </div>
             </div>
         );
     }
