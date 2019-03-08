@@ -16,11 +16,11 @@ export const ItemList = (
   >
     {
       map(
-        data, i =>
+        data, (item, index) =>
           <Item
-            key={i.id}
-            id={i.id}
-            data={data}
+            key={item.id}
+            id={item.id}
+            data={data[index]}
           />
       )
     }
