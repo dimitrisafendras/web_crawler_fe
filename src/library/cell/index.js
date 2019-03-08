@@ -7,8 +7,8 @@ export const Cell = (
     {
         id,
         className,
-        width,
-        height,
+        width = '100%',
+        height = '100%',
         gridColumnStart,
         gridRowStart,
         gridColumnEnd,
@@ -16,6 +16,8 @@ export const Cell = (
         center,
         area,
         children,
+        alignSelf,
+        justifySelf,
     }) =>
     <div
         id={id}
@@ -29,6 +31,8 @@ export const Cell = (
             'gridRowEnd': `span ${gridRowEnd}`,
             'textAlign': center,
             'gridArea': area,
+            'alignSelf': alignSelf,
+            'justifySelf': justifySelf,
         }}
     >
         {children}
@@ -42,5 +46,7 @@ Cell.propTypes = {
     left: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
     middle: PropTypes.bool,
     center: PropTypes.bool,
-    area: PropTypes.string
+    area: PropTypes.string,
+    alignSelf: PropTypes.string,
+    justifySelf: PropTypes.string
 };

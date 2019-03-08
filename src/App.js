@@ -24,34 +24,30 @@ class App extends Component {
         const data = this.state.data;
         return (
             <div className="App">
-                <div id={'app-header'}>
-                    LOL
-                </div>
-                <PrimaryButton
-                    id={'fetch-btn'}
-                    text={'Click'}
-                    onClick={()=>this.handleClick()}
-                />
-                <div id={'app-main'}>
-                    {data.map(i =>
-                        <div key={i.id}>
-                            {`${i.name}`}
-                        </div>
-                    )}
-                </div>
                 <Grid
                     id={'layout'}
-                    rows={4}
+                    height={'100vh'}
+                    rows={'10vh 80vh 10vh'}
                     columns={4}
+                    areas={[
+                        'header header header header',
+                        '. main main .',
+                        'footer footer footer footer'
+                    ]}
                 >
                     <Cell
-                        height={'100px'}
-                        width={'100px'}
+                        id={'header'}
+                        area={'header'}
+                    />
+                    <Cell
+                        id={'main'}
+                        area={'main'}
+                    />
+                    <Cell
+                        id={'footer'}
+                        area={'footer'}
                     />
                 </Grid>
-                <div id={'app-footer'}>
-                    LOL
-                </div>
             </div>
         );
     }
