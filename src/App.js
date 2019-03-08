@@ -48,7 +48,7 @@ class App extends Component {
               id={'mainBtn'}
               onClick={()=> this.handleClick()}
               text={'click'}
-              className={'mainBtn'}
+              className={'MainBtn'}
             />
           </Cell>
           <Cell

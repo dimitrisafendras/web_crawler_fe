@@ -1,5 +1,7 @@
+@import 'utils/Colors';
+
 .App{
-  background-color: aqua;
+  background-color: $white;
 }
 
 .Header {
@@ -7,8 +9,7 @@
   justify-content: center;
 }
 
-.mainBtn {
+.MainBtn {
   width: 100%;
-  background-color: #0b0b0b;
   color: white;
 }

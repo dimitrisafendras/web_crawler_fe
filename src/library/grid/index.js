@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {
   getFr,
   formatAreas,
-} from '../../utils';
+} from '../../utils/utils';
 
 import './Grid.scss'
 
@@ -18,6 +18,7 @@ export const Grid = (
     columns = 1,
     columnGap,
     rowGap,
+    gap,
     areas,
     justifyContent,
     alignContent,
@@ -34,6 +35,7 @@ export const Grid = (
       'gridTemplateColumns': getFr(columns),
       'columnGap': columnGap,
       'rowGap': rowGap,
+      'gap': gap,
       'gridTemplateAreas': formatAreas(areas),
       'justifyContent': justifyContent,
       'alignContent': alignContent,

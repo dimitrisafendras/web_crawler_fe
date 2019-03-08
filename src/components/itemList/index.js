@@ -13,7 +13,7 @@ export const ItemList = (
   <Grid
     id={id}
     className={`ItemList ${className}`}
-    rowGap={'10px'}
+    gap={'10px'}
   >
     {
       map(
