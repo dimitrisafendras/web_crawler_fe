@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 import './App.scss';
+import GridContainer from './library/gridContainer';
 
 class App extends Component {
     constructor(props){
@@ -20,9 +21,10 @@ class App extends Component {
         const data = this.state.data;
         return (
             <div className="App">
-                <header className="App-header">
-                </header>
-                <main>
+                <GridContainer id={'App-header'}>
+                    LOL
+                </GridContainer>
+                <GridContainer id={'App-main'}>
                     <button onClick={() => this.handleClick()}>
                         request
                     </button>
@@ -31,8 +33,10 @@ class App extends Component {
                             {`${i.name}`}
                         </div>
                     )}
-                </main>
-                <footer/>
+                </GridContainer>
+                <GridContainer id={'App-footer'}>
+                    LOL
+                </GridContainer>
             </div>
         );
     }
