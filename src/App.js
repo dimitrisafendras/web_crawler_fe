@@ -5,7 +5,12 @@ import {
     Grid, Cell,
 } from './library';
 
+import {
+    ItemList
+} from './components';
+
 import './App.scss';
+
 
 class App extends Component {
     constructor(props){
@@ -17,38 +22,50 @@ class App extends Component {
 
     handleClick() {
         axios.get('https://api.openbrewerydb.org/breweries')
-            .then(response => this.setState({data: response.data}))
+          .then(response => this.setState({data: response.data}))
     }
 
     render() {
         const data = this.state.data;
         return (
-            <div className="App">
-                <Grid
-                    id={'layout'}
-                    height={'100vh'}
-                    rows={'10vh 80vh 10vh'}
-                    columns={4}
-                    areas={[
-                        'header header header header',
-                        '. main main .',
-                        'footer footer footer footer'
-                    ]}
-                >
-                    <Cell
-                        id={'header'}
-                        area={'header'}
-                    />
-                    <Cell
-                        id={'main'}
-                        area={'main'}
-                    />
-                    <Cell
-                        id={'footer'}
-                        area={'footer'}
-                    />
-                </Grid>
-            </div>
+          <div className="App">
+              <Grid
+                id={'layout'}
+                height={'100vh'}
+                rows={'10vh 80vh 10vh'}
+                columns={4}
+                areas={[
+                    'header header header header',
+                    '. main main .',
+                    'footer footer footer footer'
+                ]}
+              >
+                  <Cell
+                    id={'header'}
+                    area={'header'}
+                    className={'Header'}
+                  >
+                      <PrimaryButton
+                        id={'mainBtn'}
+                        onClick={()=> this.handleClick()}
+                        text={'click'}
+                        className={'mainBtn'}
+                      />
+                  </Cell>
+                  <Cell
+                    id={'main'}
+                    area={'main'}
+                  >
+                      <ItemList
+                        data={data}
+                      />
+                  </Cell>
+                  <Cell
+                    id={'footer'}
+                    area={'footer'}
+                  />
+              </Grid>
+          </div>
         );
     }
 }
