@@ -6,7 +6,7 @@ import './Cell.scss'
 export const Cell = (
   {
     id,
-    className,
+    className = '',
     width = '100%',
     height = '100%',
     gridColumnStart,

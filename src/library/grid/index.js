@@ -10,13 +10,12 @@ import './Grid.scss'
 export const Grid = (
   {
     id,
-    className,
+    className = '',
     height = 'auto',
     flow = 'row',
     minRowHeight = '20px',
     rows = 1,
     columns = 1,
-    gap = '8px' ,
     columnGap,
     rowGap,
     areas,
@@ -33,7 +32,6 @@ export const Grid = (
       'gridAutoRows': `minmax(${minRowHeight}, auto)`,
       'gridTemplateRows': getFr(rows),
       'gridTemplateColumns': getFr(columns),
-      'gridGap': gap,
       'columnGap': columnGap,
       'rowGap': rowGap,
       'gridTemplateAreas': formatAreas(areas),
@@ -47,7 +45,6 @@ export const Grid = (
 Grid.propTypes = {
   className: PropTypes.string,
   columns: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  gap: PropTypes.string,
   columnGap: PropTypes.string,
   rowGap: PropTypes.string,
   height: PropTypes.string,

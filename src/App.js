@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+
 import {
   PrimaryButton,
   Grid, Cell,
@@ -31,8 +32,6 @@ class App extends Component {
       <div className="App">
         <Grid
           id={'layout'}
-          height={'100vh'}
-          rows={'10vh 80vh 10vh'}
           columns={4}
           areas={[
             'header header header header',
@@ -56,9 +55,7 @@ class App extends Component {
             id={'main'}
             area={'main'}
           >
-            <ItemList
-              data={data}
-            />
+            {data && <ItemList data={data}/>}
           </Cell>
           <Cell
             id={'footer'}

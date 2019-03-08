@@ -1,18 +1,19 @@
 import React from 'react';
 import {map} from 'lodash-es';
 import {Item} from '../item';
-
-import './ItemList.scss'
+import {Grid} from '../../library';
+import './ItemList.scss';
 
 export const ItemList = (
   {
     id,
-    className,
-    data
+    className = '',
+    data = [],
   }) =>
-  <div
+  <Grid
     id={id}
     className={`ItemList ${className}`}
+    rowGap={'10px'}
   >
     {
       map(
@@ -24,4 +25,4 @@ export const ItemList = (
           />
       )
     }
-  </div>;
+  </Grid>;
