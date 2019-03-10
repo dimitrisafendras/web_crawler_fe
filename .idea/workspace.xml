@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa39a2c3-0f78-488c-8252-05a02202bdc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item/Item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item/Item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/_Colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/_Colors.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -319,7 +315,7 @@
       <workItem from="1552061243854" duration="9967000" />
       <workItem from="1552080211861" duration="4212000" />
       <workItem from="1552217626159" duration="29000" />
-      <workItem from="1552217713790" duration="1564000" />
+      <workItem from="1552217713790" duration="1982000" />
     </task>
     <task id="LOCAL-00001" summary="added axios for rest calls">
       <created>1551905911297</created>
@@ -426,11 +422,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552084316329</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="changed some colors in pallet">
+      <created>1552220244625</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1552220244625</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44516000" />
+    <option name="totallyTimeSpent" value="44934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="1402" height="1158" extended-state="0" />
@@ -473,7 +476,8 @@
     <MESSAGE value="added some colors" />
     <MESSAGE value="styled item and btn" />
     <MESSAGE value="added some props on components" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some props on components" />
+    <MESSAGE value="changed some colors in pallet" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed some colors in pallet" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
