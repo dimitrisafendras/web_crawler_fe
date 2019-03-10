@@ -13,7 +13,7 @@ export const Item = (
     width={'100%'}
     className={`Item ${className}`}
   >
-    //TODO refactor below with map and destructured data
+    {/*//TODO refactor below with map and destructured data*/}
     <Cell centerContent>
       {`${data.name}`}
     </Cell>

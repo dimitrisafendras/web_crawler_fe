@@ -4,10 +4,12 @@
   border-radius: 4px;
   padding: 4px;
   box-shadow: 0 0 20px 0 $boxShadow;
-  color: $white;
+  color: $label;
   font-size: 14px;
   font-family: "Comic Sans MS", cursive, sans-serif;
   &:hover{
+    color: $white;
+    background-color: $secondary;
     box-shadow: 0 0 20px 0 $boxShadowHover;
     transform: scale(1.1);
   }
