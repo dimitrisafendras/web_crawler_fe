@@ -1,7 +1,7 @@
 import React from 'react';
 import {map} from 'lodash-es';
 import {Item} from '../item';
-import {Grid} from '../../library';
+import {Grid} from '../../toolkit';
 import './ItemList.scss';
 
 export const ItemList = (

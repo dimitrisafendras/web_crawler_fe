@@ -17,9 +17,10 @@ export const Grid = (
     minRowHeight = '20px',
     rows = 1,
     columns = 1,
-    columnGap,
-    rowGap,
-    gap,
+      //FIXME GAP PROPERTIES BUG EACH OTHER
+    columnGap = '',
+    rowGap = '',
+    gap = '',
     areas,
     justifyContent,
     alignContent,
