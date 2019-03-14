@@ -22,9 +22,13 @@ class App extends Component {
         }
     }
 
-    handleClick() {
+    fetch() {
         axios.get('https://api.openbrewerydb.org/breweries')
             .then(response => this.setState({data: response.data}))
+    }
+
+    delete() {
+        this.setState({data: []})
     }
 
     render() {
@@ -34,12 +38,12 @@ class App extends Component {
                 <Grid
                     minHeight={'100vh'}
                     id={'layout'}
-                    columns={'20px auto auto 20px'}
+                    columns={'100px auto auto 100px'}
                     rows={'40px auto 40px'}
                     gap={'14px 0'}
                     areas={[
                         'header header header header',
-                        '. main main .',
+                        'fetch main main delete',
                         'footer footer footer footer'
                     ]}
                 >
@@ -51,16 +55,29 @@ class App extends Component {
                         <Header/>
                     </Cell>
                     <Cell
-                        id={'main'}
-                        area={'main'}
+                        id={'fetch'}
+                        area={'fetch'}
+                    >
+                        <PrimaryButton
+                        id={'mainBtn'}
+                        onClick={()=> this.fetch()}
+                        text={'Fetch'}
+                        className={'MainBtn'}
+                    />
+                    </Cell>
+                    <Cell id={'main'} area={'main'}>
+                        {data && <ItemList data={data}/>}
+                    </Cell>
+                    <Cell
+                        id={'delete'}
+                        area={'delete'}
                     >
                         <PrimaryButton
                             id={'mainBtn'}
-                            onClick={()=> this.handleClick()}
-                            text={'Click'}
+                            onClick={()=> this.delete()}
+                            text={'Delete'}
                             className={'MainBtn'}
                         />
-                        {data && <ItemList data={data}/>}
                     </Cell>
                     <Cell
                         id={'footer'}
