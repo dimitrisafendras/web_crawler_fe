@@ -9,6 +9,7 @@
   font-size: 14px;
   font-family: "Comic Sans MS", cursive, sans-serif;
   border: 2px solid $boxShadow;
+  transition: all 0.3s ease;
   &:hover{
     cursor: pointer;
     box-shadow: inset 0 0 20px 8px $boxShadowHover;
