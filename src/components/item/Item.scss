@@ -1,5 +1,7 @@
 @import '../../utils/Colors';
 .Item {
+  width: 100%;
+  max-width: 500px;
   background-color: $primary;
   border-radius: 4px;
   padding: 4px;

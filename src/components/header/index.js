@@ -1,12 +1,11 @@
 import React from 'react';
 import './Header.scss';
 
-const Header = () => {
+export const Header = () => {
     return (
         <div className={`Header`}>
-
+            HEADER
         </div>
     );
-}
+};
 
-export default Header;

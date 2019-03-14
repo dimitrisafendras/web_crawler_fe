@@ -7,13 +7,12 @@ import {
 } from './toolkit';
 
 import {
-    ItemList
+    ItemList,
+    Header,
+    Footer,
 } from './components';
 
 import './App.scss';
-import Header from './components/header';
-import Footer from './components/footer';
-
 
 class App extends Component {
     constructor(props){
@@ -35,13 +34,13 @@ class App extends Component {
                 <Grid
                     minHeight={'100vh'}
                     id={'layout'}
-                    columns={'20px auto 20px'}
+                    columns={'20px auto auto 20px'}
                     rows={'40px auto 40px'}
                     gap={'14px 0'}
                     areas={[
-                        'header header header',
-                        '. main .',
-                        'footer footer footer'
+                        'header header header header',
+                        '. main main .',
+                        'footer footer footer footer'
                     ]}
                 >
                     <Cell
@@ -58,7 +57,7 @@ class App extends Component {
                         <PrimaryButton
                             id={'mainBtn'}
                             onClick={()=> this.handleClick()}
-                            text={'click'}
+                            text={'Click'}
                             className={'MainBtn'}
                         />
                         {data && <ItemList data={data}/>}

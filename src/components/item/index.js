@@ -10,7 +10,6 @@ export const Item = (
   }) =>
   <Grid
     id={id}
-    width={'100%'}
     className={`Item ${className}`}
   >
     {/*//TODO refactor below with map and destructured data*/}

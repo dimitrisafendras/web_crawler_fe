@@ -14,6 +14,7 @@ export const ItemList = (
     id={id}
     className={`ItemList ${className}`}
     gap={'14px'}
+    justifyItems={'center'}
   >
     {
       map(
