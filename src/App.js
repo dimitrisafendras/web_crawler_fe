@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 
 import {
     PrimaryButton,
@@ -12,6 +11,8 @@ import {
     Footer,
 } from './components';
 
+import {fetch} from './api';
+
 import './App.scss';
 
 class App extends Component {
@@ -22,12 +23,16 @@ class App extends Component {
         }
     }
 
-    fetch() {
-        axios.get('https://api.openbrewerydb.org/breweries')
-            .then(response => this.setState({data: response.data}))
+    onFetch() {
+        fetch()
+            .then(
+                response => this.setState(
+                    {data: response.data}
+                )
+            )
     }
 
-    delete() {
+    onDelete() {
         this.setState({data: []})
     }
 
@@ -59,11 +64,11 @@ class App extends Component {
                         area={'fetch'}
                     >
                         <PrimaryButton
-                        id={'mainBtn'}
-                        onClick={()=> this.fetch()}
-                        text={'Fetch'}
-                        className={'MainBtn'}
-                    />
+                            id={'mainBtn'}
+                            onClick={()=> this.onFetch()}
+                            text={'Fetch'}
+                            className={'MainBtn'}
+                        />
                     </Cell>
                     <Cell id={'main'} area={'main'}>
                         {data && <ItemList data={data}/>}
@@ -74,7 +79,7 @@ class App extends Component {
                     >
                         <PrimaryButton
                             id={'mainBtn'}
-                            onClick={()=> this.delete()}
+                            onClick={()=> this.onDelete()}
                             text={'Delete'}
                             className={'MainBtn'}
                         />
