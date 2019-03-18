@@ -26,9 +26,10 @@ class App extends Component {
     onFetch() {
         fetch()
             .then(
-                response => this.setState(
+                response => { console.log('>>>', response)
+                    this.setState(
                     {data: response.data}
-                )
+                )}
             )
     }
 
