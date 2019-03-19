@@ -11,7 +11,7 @@ import {
 
 import {
     Header,
-    Footer,
+    Footer, HomeMain,
 } from './organisms';
 
 import {fetch} from './api';
@@ -61,9 +61,11 @@ class App extends Component {
                             className={'MainBtn'}
                         />
                     </Cell>
-                    <Cell id={'main'} area={'main'}>
-                        {data && <ItemList data={data}/>}
-                    </Cell>
+                    <HomeMain
+                        id={'main'}
+                        area={'main'}
+                        data={data}
+                    />
                     <Cell
                         id={'delete'}
                         area={'delete'}

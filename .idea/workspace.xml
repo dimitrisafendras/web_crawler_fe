@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa39a2c3-0f78-488c-8252-05a02202bdc5" name="Default Changelist" comment="">
+    <list default="true" id="aa39a2c3-0f78-488c-8252-05a02202bdc5" name="Default Changelist" comment="refactored fixed indentation">
+      <change afterPath="$PROJECT_DIR$/src/organisms/homeMain/HomeMain.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/organisms/homeMain/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/cell/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/cell/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/molecules/item/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/item/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/molecules/itemList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/itemList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/organisms/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/organisms/footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/organisms/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/organisms/header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/organisms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/organisms/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,56 +20,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.70577615">
+    <splitter split-orientation="horizontal" split-proportion="0.43564355">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/templates/homeLayout/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="14" column="16" lean-forward="true" selection-end-line="20" selection-end-column="12" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/App.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="317">
-                  <caret line="56" column="36" lean-forward="true" selection-end-line="89" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/atoms/buttons/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/atoms/cell/Cell.scss">
+            <entry file="file://$PROJECT_DIR$/src/organisms/header/index.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="69">
-                  <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/atoms/cell/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-378">
-                  <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -75,10 +36,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/atoms/grid/index.js">
+            <entry file="file://$PROJECT_DIR$/src/organisms/footer/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="589">
-                  <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+                <state relative-caret-position="184">
+                  <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -98,37 +59,22 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/molecules/itemList/index.js">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/organisms/homeMain/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="69">
+                  <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/organisms/footer/index.js">
+            <entry file="file://$PROJECT_DIR$/src/organisms/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="16" column="2" lean-forward="true" selection-end-line="16" selection-end-column="12" />
+                <state relative-caret-position="92">
+                  <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
                   <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/organisms/header/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="13" column="16" selection-end-line="18" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
+                    <element signature="e#0#32#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -138,11 +84,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="110">
-                  <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="28" />
+                <state relative-caret-position="547">
+                  <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -162,7 +108,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/templates/homeLayout/HomeLayout.scss">
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
@@ -192,8 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/library/grid.js" />
-        <option value="$PROJECT_DIR$/src/library/cell.js" />
         <option value="$PROJECT_DIR$/src/library/button.js" />
         <option value="$PROJECT_DIR$/src/library/button/button.js" />
         <option value="$PROJECT_DIR$/src/library/button/index.js" />
@@ -230,19 +174,21 @@
         <option value="$PROJECT_DIR$/src/api.js" />
         <option value="$PROJECT_DIR$/src/atoms/index.js" />
         <option value="$PROJECT_DIR$/src/molecules/index.js" />
-        <option value="$PROJECT_DIR$/src/organisms/index.js" />
         <option value="$PROJECT_DIR$/src/organisms/footer/Footer.scss" />
-        <option value="$PROJECT_DIR$/src/organisms/footer/index.js" />
         <option value="$PROJECT_DIR$/src/organisms/header/Header.scss" />
         <option value="$PROJECT_DIR$/src/App.scss" />
-        <option value="$PROJECT_DIR$/src/organisms/header/index.js" />
         <option value="$PROJECT_DIR$/src/templates/homeLayout/HomeLayout.scss" />
         <option value="$PROJECT_DIR$/src/templates/homeLayout/index.js" />
         <option value="$PROJECT_DIR$/src/templates/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/atoms/cell/index.js" />
         <option value="$PROJECT_DIR$/src/molecules/item/index.js" />
         <option value="$PROJECT_DIR$/src/molecules/itemList/index.js" />
+        <option value="$PROJECT_DIR$/src/organisms/header/index.js" />
+        <option value="$PROJECT_DIR$/src/organisms/footer/index.js" />
+        <option value="$PROJECT_DIR$/src/organisms/homeMain/HomeMain.scss" />
+        <option value="$PROJECT_DIR$/src/organisms/index.js" />
+        <option value="$PROJECT_DIR$/src/organisms/homeMain/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -289,50 +235,7 @@
               <item name="web_crawler_fe" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_crawler_fe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="atoms" type="462c0819:PsiDirectoryNode" />
-              <item name="buttons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_crawler_fe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_crawler_fe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="atoms" type="462c0819:PsiDirectoryNode" />
-              <item name="buttons" type="462c0819:PsiDirectoryNode" />
-              <item name="primaryButton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_crawler_fe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_crawler_fe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="atoms" type="462c0819:PsiDirectoryNode" />
-              <item name="cell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_crawler_fe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_crawler_fe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="atoms" type="462c0819:PsiDirectoryNode" />
-              <item name="grid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_crawler_fe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_crawler_fe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="molecules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_crawler_fe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_crawler_fe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="molecules" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_crawler_fe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_crawler_fe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="molecules" type="462c0819:PsiDirectoryNode" />
-              <item name="itemList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_crawler_fe" type="b2602c69:ProjectViewProjectNode" />
@@ -345,14 +248,7 @@
               <item name="web_crawler_fe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="organisms" type="462c0819:PsiDirectoryNode" />
-              <item name="footer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_crawler_fe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_crawler_fe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="organisms" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
+              <item name="homeMain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_crawler_fe" type="b2602c69:ProjectViewProjectNode" />
@@ -384,7 +280,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -446,7 +342,7 @@
       <workItem from="1552577464011" duration="1885000" />
       <workItem from="1552652586207" duration="252000" />
       <workItem from="1552664357493" duration="2919000" />
-      <workItem from="1552922265064" duration="5963000" />
+      <workItem from="1552922265064" duration="7322000" />
     </task>
     <task id="LOCAL-00001" summary="added axios for rest calls">
       <created>1551905911297</created>
@@ -672,17 +568,24 @@
       <option name="project" value="LOCAL" />
       <updated>1552999567023</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="refactored fixed indentation">
+      <created>1552999775703</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1552999775703</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75390000" />
+    <option name="totallyTimeSpent" value="76749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21640736" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21640736" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -730,7 +633,8 @@
     <MESSAGE value="refactoring to atomic design principles" />
     <MESSAGE value="refactored header footer to atomic design principles" />
     <MESSAGE value="refactored home layout to atomic design principles" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored home layout to atomic design principles" />
+    <MESSAGE value="refactored fixed indentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored fixed indentation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/library/grid/gridContainer.scss" />
@@ -886,16 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/organisms/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/atoms/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -944,13 +838,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/homeLayout/HomeLayout.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/atoms/buttons/primaryButton/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="9" lean-forward="true" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/homeLayout/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -991,6 +892,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/molecules/itemList/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/organisms/header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/organisms/footer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/molecules/item/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -1001,50 +932,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/molecules/itemList/index.js">
+    <entry file="file://$PROJECT_DIR$/src/organisms/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="92">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/organisms/footer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="2" lean-forward="true" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/templates/homeLayout/HomeLayout.scss">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/organisms/header/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="16" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/organisms/homeMain/HomeMain.scss">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/homeLayout/index.js">
+    <entry file="file://$PROJECT_DIR$/src/organisms/homeMain/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="16" lean-forward="true" selection-end-line="20" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="69">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="56" column="36" lean-forward="true" selection-end-line="89" />
+        <state relative-caret-position="547">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

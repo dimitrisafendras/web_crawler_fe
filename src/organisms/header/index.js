@@ -1,6 +1,6 @@
 import React from 'react';
-import './Header.scss';
 import {Cell} from '../../atoms';
+import './Header.scss';
 
 export const Header = (
     {

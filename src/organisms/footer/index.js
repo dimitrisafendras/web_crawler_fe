@@ -1,6 +1,6 @@
 import React from 'react';
-import './Footer.scss';
 import {Cell} from '../../atoms';
+import './Footer.scss';
 
 export const Footer = (
     {
