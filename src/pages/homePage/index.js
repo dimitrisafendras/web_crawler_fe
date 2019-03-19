@@ -24,11 +24,10 @@ export class HomePage extends Component {
 
     onFetch() {
         fetch()
-            .then(
-                response => { console.log('>>>', response.data)
-                    this.setState(
-                        {data: response.data}
-                    )}
+            .then(response =>
+                this.setState({
+                    data: response.data
+                })
             )
     }
 
@@ -36,36 +35,36 @@ export class HomePage extends Component {
         this.setState({data: []})
     }
 
-     render() {
-         const data = this.state.data;
-         return (
-              <HomeLayout>
-                  <Header
-                      id={'header'}
-                      area={'header'}
-                  />
-                  <PrimaryBtnWithCell
-                      id={'fetch'}
-                      area={'fetch'}
-                      onClick={()=> this.onFetch()}
-                      text={'Fetch'}
-                  />
-                  <HomeMain
-                      id={'main'}
-                      area={'main'}
-                      data={data}
-                  />
-                  <PrimaryBtnWithCell
-                      id={'delete'}
-                      area={'delete'}
-                      onClick={()=> this.onDelete()}
-                      text={'Delete'}
-                  />
-                  <Footer
-                      id={'footer'}
-                      area={'footer'}
-                  />
-              </HomeLayout>
-          );
-     }
+    render() {
+        const data = this.state.data;
+        return (
+            <HomeLayout>
+                <Header
+                    id={'header'}
+                    area={'header'}
+                />
+                <PrimaryBtnWithCell
+                    id={'fetch'}
+                    area={'fetch'}
+                    onClick={()=> this.onFetch()}
+                    text={'Fetch'}
+                />
+                <HomeMain
+                    id={'main'}
+                    area={'main'}
+                    data={data}
+                />
+                <PrimaryBtnWithCell
+                    id={'delete'}
+                    area={'delete'}
+                    onClick={()=> this.onDelete()}
+                    text={'Delete'}
+                />
+                <Footer
+                    id={'footer'}
+                    area={'footer'}
+                />
+            </HomeLayout>
+        );
+    }
 }

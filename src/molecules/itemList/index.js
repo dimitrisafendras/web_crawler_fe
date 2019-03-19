@@ -17,11 +17,12 @@ export const ItemList = (
         justifyItems={'center'}
     >
         {
-            map(data, (item, index) =>
+            //FIXME data.wtf fix
+            map(data.devices, (item, index) =>
                 <Item
-                    key={item.id}
-                    id={item.id}
-                    data={data[index]}
+                    key={`${item.name}${index}`}
+                    id={`${item.name}${index}`}
+                    data={item}
                 />
             )
         }
