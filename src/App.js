@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import {
     PrimaryButton,
     Grid, Cell,
-} from './toolkit';
+} from './atoms';
 
 import {
     ItemList,
@@ -26,7 +26,7 @@ class App extends Component {
     onFetch() {
         fetch()
             .then(
-                response => { console.log('>>>', response)
+                response => { console.log('>>>', response.data)
                     this.setState(
                     {data: response.data}
                 )}

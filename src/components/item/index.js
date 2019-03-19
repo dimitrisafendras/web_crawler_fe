@@ -1,6 +1,6 @@
 import React from 'react';
 import './Item.scss'
-import {Cell, Grid} from '../../toolkit';
+import {Cell, Grid} from '../../atoms';
 
 export const Item = (
   {
