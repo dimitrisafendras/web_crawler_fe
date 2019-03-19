@@ -7,9 +7,12 @@ import {
 
 import {
     ItemList,
+} from './molecules';
+
+import {
     Header,
     Footer,
-} from './components';
+} from './organisms';
 
 import {fetch} from './api';
 
