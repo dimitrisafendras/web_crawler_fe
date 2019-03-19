@@ -26,7 +26,7 @@ export class HomePage extends Component {
         fetch()
             .then(response =>
                 this.setState({
-                    data: response.data
+                    data: response.data.devices
                 })
             )
     }
