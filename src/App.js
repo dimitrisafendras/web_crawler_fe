@@ -31,8 +31,8 @@ class App extends Component {
             .then(
                 response => { console.log('>>>', response.data)
                     this.setState(
-                    {data: response.data}
-                )}
+                        {data: response.data}
+                    )}
             )
     }
 
@@ -56,13 +56,10 @@ class App extends Component {
                         'footer footer footer footer'
                     ]}
                 >
-                    <Cell
+                    <Header
                         id={'header'}
                         area={'header'}
-                        className={'Header'}
-                    >
-                        <Header/>
-                    </Cell>
+                    />
                     <Cell
                         id={'fetch'}
                         area={'fetch'}
@@ -88,12 +85,10 @@ class App extends Component {
                             className={'MainBtn'}
                         />
                     </Cell>
-                    <Cell
+                    <Footer
                         id={'footer'}
                         area={'footer'}
-                    >
-                        <Footer/>
-                    </Cell>
+                    />
                 </Grid>
             </div>
         );
