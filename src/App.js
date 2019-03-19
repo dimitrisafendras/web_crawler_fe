@@ -17,6 +17,7 @@ import {
 import {fetch} from './api';
 
 import './App.scss';
+import {HomeLayout} from './templates';
 
 class App extends Component {
     constructor(props){
@@ -44,18 +45,7 @@ class App extends Component {
         const data = this.state.data;
         return (
             <div className="App">
-                <Grid
-                    minHeight={'100vh'}
-                    id={'layout'}
-                    columns={'100px auto auto 100px'}
-                    rows={'40px auto 40px'}
-                    gap={'14px 0'}
-                    areas={[
-                        'header header header header',
-                        'fetch main main delete',
-                        'footer footer footer footer'
-                    ]}
-                >
+                <HomeLayout>
                     <Header
                         id={'header'}
                         area={'header'}
@@ -89,7 +79,7 @@ class App extends Component {
                         id={'footer'}
                         area={'footer'}
                     />
-                </Grid>
+                </HomeLayout>
             </div>
         );
     }
