@@ -1,22 +1,12 @@
 import React, { Component } from 'react';
+import {fetch} from './api';
+import './App.scss';
 
-import {
-    PrimaryButton,
-    Grid, Cell,
-} from './atoms';
-
-import {
-    ItemList,
-} from './molecules';
-
+import {PrimaryBtnWithCell} from './molecules';
 import {
     Header,
     Footer, HomeMain,
 } from './organisms';
-
-import {fetch} from './api';
-
-import './App.scss';
 import {HomeLayout} from './templates';
 
 class App extends Component {
@@ -50,33 +40,23 @@ class App extends Component {
                         id={'header'}
                         area={'header'}
                     />
-                    <Cell
+                    <PrimaryBtnWithCell
                         id={'fetch'}
                         area={'fetch'}
-                    >
-                        <PrimaryButton
-                            id={'mainBtn'}
-                            onClick={()=> this.onFetch()}
-                            text={'Fetch'}
-                            className={'MainBtn'}
-                        />
-                    </Cell>
+                        onClick={()=> this.onFetch()}
+                        text={'Fetch'}
+                    />
                     <HomeMain
                         id={'main'}
                         area={'main'}
                         data={data}
                     />
-                    <Cell
+                    <PrimaryBtnWithCell
                         id={'delete'}
                         area={'delete'}
-                    >
-                        <PrimaryButton
-                            id={'mainBtn'}
-                            onClick={()=> this.onDelete()}
-                            text={'Delete'}
-                            className={'MainBtn'}
-                        />
-                    </Cell>
+                        onClick={()=> this.onDelete()}
+                        text={'Delete'}
+                    />
                     <Footer
                         id={'footer'}
                         area={'footer'}

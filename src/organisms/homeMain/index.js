@@ -9,14 +9,11 @@ export const HomeMain = (
         className,
         area,
         data,
-    }) => {
-    return (
-        <Cell
-            id={id}
-            area={area}
-            className={`HomeMain ${className}`} 
-        >
-            {data && <ItemList data={data}/>}
-        </Cell>
-  );
-};
+    }) =>
+    <Cell
+        id={id}
+        area={area}
+        className={`HomeMain ${className}`}
+    >
+        {data && <ItemList data={data}/>}
+    </Cell>;
