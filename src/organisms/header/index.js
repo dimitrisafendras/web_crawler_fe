@@ -1,5 +1,6 @@
 import React from 'react';
-import {Cell} from '../../atoms';
+import {Cell, Icon} from '../../atoms';
+import nuke from '../../static/nuke.svg'
 import './Header.scss';
 
 export const Header = (
@@ -13,6 +14,9 @@ export const Header = (
         area={area}
         className={`Header ${className}`}
     >
-        HEADER
+        <Icon
+            id={'nukeIcon'}
+            icon={nuke}
+        />
     </Cell>;
 

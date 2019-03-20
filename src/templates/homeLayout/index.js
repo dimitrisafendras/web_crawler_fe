@@ -10,7 +10,7 @@ export const HomeLayout = (
         minHeight={'100vh'}
         id={'layout'}
         columns={'100px auto auto 100px'}
-        rows={'40px auto 40px'}
+        rows={'48px auto 40px'}
         gap={'14px 0'}
         areas={[
             'header header header header',
