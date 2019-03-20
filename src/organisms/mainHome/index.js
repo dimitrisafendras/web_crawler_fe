@@ -1,9 +1,9 @@
 import React from 'react';
-import './HomeMain.scss'
+import './MainHome.scss'
 import {Cell} from '../../atoms';
 import {ItemList} from '../../molecules';
 
-export const HomeMain = (
+export const MainHome = (
     {
         id,
         className,

@@ -3,15 +3,18 @@ import './HomePage.scss';
 
 import {
     PrimaryBtnWithCell
-} from '../../molecules/primaryBtnWithCell';
+} from '../../molecules';
+
 import {
     Header,
     Footer,
-    HomeMain,
+    MainHome,
 } from '../../organisms';
+
 import {
     HomeLayout
 } from '../../templates';
+
 import {fetch} from '../../api';
 
 export class HomePage extends Component {
@@ -49,7 +52,7 @@ export class HomePage extends Component {
                     onClick={()=> this.onFetch()}
                     text={'Fetch'}
                 />
-                <HomeMain
+                <MainHome
                     id={'main'}
                     area={'main'}
                     data={data}

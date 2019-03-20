@@ -1,9 +1,9 @@
 import {Header} from './header';
 import {Footer} from './footer';
-import {HomeMain} from './homeMain';
+import {MainHome} from './mainHome';
 
 export {
     Header,
     Footer,
-    HomeMain,
+    MainHome,
 }
