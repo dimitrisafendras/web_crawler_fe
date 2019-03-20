@@ -29,7 +29,7 @@ export class HomePage extends Component {
         fetch()
             .then(response =>
                 this.setState({
-                    data: response.data.devices
+                    data: response.data.contentsPerPage[0].contentPerItem
                 })
             )
     }

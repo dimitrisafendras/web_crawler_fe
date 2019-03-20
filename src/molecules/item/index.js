@@ -17,9 +17,12 @@ export const Item = (
             {`${data.name}`}
         </Cell>
         <Cell centerContent>
-            {`${data.manufacture}`}
+            {`New price ${data.newPrice} $`}
         </Cell>
         <Cell centerContent>
-            {`${data.price} $`}
+            {`Old price ${data.oldPrice} $`}
+        </Cell>
+        <Cell centerContent>
+            {`Discount ${data.discountPercentage} %`}
         </Cell>
     </Grid>;
