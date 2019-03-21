@@ -1,29 +1,21 @@
 import React from 'react';
 import './Item.scss'
-import {Cell, Grid, H3} from '../../atoms';
+import {FlexContainer, H3} from '../../atoms';
 
-//FIXME REFARCTOR WITHOUT GRID
 export const Item = (
     {
         id,
         className = '',
         data,
     }) =>
-    <Grid
+    <FlexContainer
+        column
         id={id}
-        className={`Item ${className}`}
+        className={'Item'}
     >
-        {/*//TODO refactor below with map and destructured data*/}
-        <Cell centerContent>
-            <H3> {`${data.name}`} </H3>
-        </Cell>
-        <Cell centerContent>
-            <H3> {`New price ${data.newPrice} $`} </H3>
-        </Cell>
-        <Cell centerContent>
-            <H3> {`Old price ${data.oldPrice} $`} </H3>
-        </Cell>
-        <Cell centerContent>
-            <H3> {`Discount ${data.discountPercentage} %`} </H3>
-        </Cell>
-    </Grid>;
+        {/*FIXME MAP*/}
+        <H3 center text={`${data.name}`} />
+        <H3 text={`New price ${data.newPrice} $`} />
+        <H3 text={`Old price ${data.oldPrice} $`} />
+        <H3 text={`Discount ${data.discountPercentage} %`} />
+    </FlexContainer>;

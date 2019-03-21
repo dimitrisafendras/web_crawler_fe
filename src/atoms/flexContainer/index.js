@@ -8,9 +8,9 @@ export const FlexContainer = (
         children,
         column,
         noWrap,
-        justifyContent = 'flex-start',
+        justifyContent = 'center',
         alignItems = 'center',
-        alignContent = 'flex-start',
+        // alignContent = 'flex-start',
     }) =>
     <div
         id={id}
@@ -20,7 +20,7 @@ export const FlexContainer = (
             flexWrap: noWrap ? 'noWrap' : 'wrap',
             justifyContent: `${justifyContent}`,
             alignItems: `${alignItems}`,
-            alignContent: `${alignContent}`
+            // alignContent: `${alignContent}`
         }}
     >
         {children}

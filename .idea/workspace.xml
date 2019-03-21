@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa39a2c3-0f78-488c-8252-05a02202bdc5" name="Default Changelist" comment="moved item list to molecules">
-      <change afterPath="$PROJECT_DIR$/src/atoms/flexContainer/FlexContainer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/atoms/flexContainer/index.js" afterDir="false" />
+    <list default="true" id="aa39a2c3-0f78-488c-8252-05a02202bdc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/molecules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/flexContainer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/flexContainer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/h1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/h1/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/h2/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/h2/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/h3/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/h3/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/molecules/item/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/item/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/molecules/itemList/ItemList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/organisms/itemList/ItemList.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/molecules/itemList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/organisms/itemList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/organisms/header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/organisms/header/Header.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/molecules/item/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="345">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -46,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/atoms/flexContainer/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="322">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -55,11 +53,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/atoms/h1/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/atoms/h2/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/atoms/h3/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/atoms/flexContainer/FlexContainer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="46">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -126,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/molecules/itemList/index.js" />
         <option value="$PROJECT_DIR$/src/atoms/icon/Icon.scss" />
         <option value="$PROJECT_DIR$/src/templates/homeLayout/index.js" />
-        <option value="$PROJECT_DIR$/src/atoms/index.js" />
         <option value="$PROJECT_DIR$/src/organisms/header/index.js" />
         <option value="$PROJECT_DIR$/src/theme/_Typography.scss" />
         <option value="$PROJECT_DIR$/src/atoms/buttons/primaryButton/PrimaryButton.scss" />
@@ -134,13 +167,14 @@
         <option value="$PROJECT_DIR$/src/atoms/h2/H2.scss" />
         <option value="$PROJECT_DIR$/src/atoms/h3/H3.scss" />
         <option value="$PROJECT_DIR$/src/molecules/item/Item.scss" />
-        <option value="$PROJECT_DIR$/src/atoms/h1/index.js" />
-        <option value="$PROJECT_DIR$/src/atoms/h2/index.js" />
-        <option value="$PROJECT_DIR$/src/atoms/h3/index.js" />
         <option value="$PROJECT_DIR$/src/organisms/header/Header.scss" />
-        <option value="$PROJECT_DIR$/src/molecules/item/index.js" />
-        <option value="$PROJECT_DIR$/src/atoms/flexContainer/index.js" />
         <option value="$PROJECT_DIR$/src/atoms/flexContainer/FlexContainer.scss" />
+        <option value="$PROJECT_DIR$/src/atoms/index.js" />
+        <option value="$PROJECT_DIR$/src/atoms/flexContainer/index.js" />
+        <option value="$PROJECT_DIR$/src/atoms/h3/index.js" />
+        <option value="$PROJECT_DIR$/src/atoms/h2/index.js" />
+        <option value="$PROJECT_DIR$/src/atoms/h1/index.js" />
+        <option value="$PROJECT_DIR$/src/molecules/item/index.js" />
       </list>
     </option>
   </component>
@@ -190,6 +224,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="atoms" type="462c0819:PsiDirectoryNode" />
               <item name="flexContainer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_crawler_fe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_crawler_fe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atoms" type="462c0819:PsiDirectoryNode" />
+              <item name="h1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_crawler_fe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_crawler_fe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atoms" type="462c0819:PsiDirectoryNode" />
+              <item name="h2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_crawler_fe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_crawler_fe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atoms" type="462c0819:PsiDirectoryNode" />
+              <item name="h3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_crawler_fe" type="b2602c69:ProjectViewProjectNode" />
@@ -247,7 +302,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -312,7 +367,7 @@
       <workItem from="1552577464011" duration="1885000" />
       <workItem from="1552652586207" duration="252000" />
       <workItem from="1552664357493" duration="2919000" />
-      <workItem from="1552922265064" duration="26682000" />
+      <workItem from="1552922265064" duration="28767000" />
     </task>
     <task id="LOCAL-00001" summary="added axios for rest calls">
       <created>1551905911297</created>
@@ -622,11 +677,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553157378126</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="moved item list to molecules and added flex container">
+      <created>1553173636780</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1553173636780</updated>
+    </task>
+    <task id="LOCAL-00046" summary="finished flex container">
+      <created>1553174499310</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1553174499310</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96109000" />
+    <option name="totallyTimeSpent" value="98194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-73" width="1920" height="1057" extended-state="6" />
@@ -680,8 +749,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="getting data for each component" />
-    <MESSAGE value="added some colors" />
     <MESSAGE value="styled item and btn" />
     <MESSAGE value="added some props on components" />
     <MESSAGE value="changed some colors in pallet" />
@@ -705,7 +772,9 @@
     <MESSAGE value="implemented backend connection" />
     <MESSAGE value="added icon atom and logo" />
     <MESSAGE value="created H1, H2, H3" />
-    <option name="LAST_COMMIT_MESSAGE" value="created H1, H2, H3" />
+    <MESSAGE value="moved item list to molecules and added flex container" />
+    <MESSAGE value="finished flex container" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished flex container" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/axios/README.md">
@@ -876,16 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/atoms/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/theme/_Typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -911,36 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="1" lean-forward="true" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/atoms/h1/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/atoms/h2/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/atoms/h3/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1073,30 +1102,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/molecules/item/index.js">
+    <entry file="file://$PROJECT_DIR$/src/atoms/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="207">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/atoms/flexContainer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/atoms/flexContainer/FlexContainer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="46">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atoms/flexContainer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atoms/h3/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atoms/h2/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atoms/h1/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/molecules/item/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

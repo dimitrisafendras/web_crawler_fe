@@ -6,10 +6,15 @@ export const H2 = (
         id,
         className = '',
         children,
+        center,
+        text,
     }) =>
     <div
         id={id}
         className={`H2 ${className}`}
+        style={{
+            textAlign: center && 'center'
+        }}
     >
-        {children}
+        {text}
     </div>;
