@@ -18,9 +18,11 @@ export const Grid = (
         rows = 1,
         columns = 1,
         //FIXME GAP PROPERTIES BUG EACH OTHER
+        //possible fix columngap && columngap in the inline style
         columnGap = '',
         rowGap = '',
         gap = '',
+
         areas,
         justifyItems,
         justifyContent,
@@ -56,6 +58,7 @@ Grid.propTypes = {
     columns: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
     columnGap: PropTypes.string,
     rowGap: PropTypes.string,
+    gap: PropTypes.string,
     height: PropTypes.string,
     minRowHeight: PropTypes.string,
     flow: PropTypes.string,

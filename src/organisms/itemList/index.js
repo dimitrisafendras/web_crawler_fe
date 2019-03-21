@@ -1,6 +1,6 @@
 import React from 'react';
 import {map} from 'lodash-es';
-import {Item} from '../../molecules/item';
+import {Item} from '../../molecules';
 import {Grid} from '../../atoms';
 import './ItemList.scss';
 
