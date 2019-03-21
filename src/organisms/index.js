@@ -1,6 +1,6 @@
-import {Header} from './header';
-import {Footer} from './footer';
-import {MainHome} from './mainHome';
+import {Header} from './header/Header';
+import {Footer} from './footer/Footer';
+import {MainHome} from './mainHome/MainHome';
 
 export {
     Header,

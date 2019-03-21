@@ -1,4 +1,4 @@
-import {HomeLayout} from './homeLayout';
+import {HomeLayout} from './homeLayout/HomeLayout';
 export {
     HomeLayout
 }
