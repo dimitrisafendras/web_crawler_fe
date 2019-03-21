@@ -23,16 +23,16 @@ export const Cell = (
         id={id}
         className={`Cell ${className}`}
         style={{
-            'height': height,
-            'width': width,
-            'gridColumnStart': gridColumnStart,
-            'gridRowStart': gridRowStart,
+            height,
+            width,
+            gridColumnStart,
+            gridRowStart,
             'gridColumnEnd': `span ${gridColumnEnd}`,
             'gridRowEnd': `span ${gridRowEnd}`,
             'textAlign': centerContent ? 'center' : '',
             'gridArea': area,
-            'alignSelf': alignSelf,
-            'justifySelf': justifySelf,
+            alignSelf,
+            justifySelf,
         }}
     >
         {children}

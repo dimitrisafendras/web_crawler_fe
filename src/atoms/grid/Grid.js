@@ -34,20 +34,20 @@ export const Grid = (
         id={id}
         className={`Grid ${className}`}
         style={{
-            'height': height,
-            'minHeight': minHeight,
+            height,
+            minHeight,
             'gridAutoFlow': flow,
             'gridAutoRows': `minmax(${minRowHeight}, auto)`,
             'gridTemplateRows': getFr(rows),
             'gridTemplateColumns': getFr(columns),
-            'columnGap': columnGap,
-            'rowGap': rowGap,
-            'gap': gap,
+            columnGap,
+            rowGap,
+            gap,
             'gridTemplateAreas': formatAreas(areas),
-            'justifyItems': justifyItems,
-            'justifyContent': justifyContent,
-            'alignContent': alignContent,
-            'alignItems': alignItems,
+            justifyItems,
+            justifyContent,
+            alignContent,
+            alignItems,
         }}
     >
         {children}

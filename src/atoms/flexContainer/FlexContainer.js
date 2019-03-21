@@ -18,8 +18,8 @@ export const FlexContainer = (
         style={{
             flexDirection: column ? 'column' : 'row',
             flexWrap: noWrap ? 'noWrap' : 'wrap',
-            justifyContent: `${justifyContent}`,
-            alignItems: `${alignItems}`,
+            justifyContent,
+            alignItems,
             // alignContent: `${alignContent}`
         }}
     >
