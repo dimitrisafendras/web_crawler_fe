@@ -1,4 +1,5 @@
 @import '../../../theme/Colors';
+@import '../../../theme/Typography';
 
 .PrimaryButton {
   height: 100%;
@@ -8,7 +9,7 @@
   border-radius: 4px;
   color: $white;
   font-size: 14px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: $primaryTypo;
   border: 2px solid $boxShadow;
   transition: all 0.3s ease;
   &:hover{

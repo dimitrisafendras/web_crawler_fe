@@ -7,7 +7,7 @@ export const Header = (
     {
         id,
         area,
-        className,
+        className = '',
     }) =>
     <Cell
         id={id}
