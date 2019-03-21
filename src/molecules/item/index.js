@@ -2,6 +2,7 @@ import React from 'react';
 import './Item.scss'
 import {Cell, Grid, H3} from '../../atoms';
 
+//FIXME REFARCTOR WITHOUT GRID
 export const Item = (
     {
         id,

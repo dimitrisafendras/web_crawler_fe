@@ -1,4 +1,4 @@
-import {ItemList} from './itemList';
+import {ItemList} from '../organisms/itemList';
 import {Item} from './item';
 import {PrimaryBtnWithCell} from './primaryBtnWithCell';
 
