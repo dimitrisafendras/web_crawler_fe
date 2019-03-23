@@ -3,7 +3,7 @@ import axios from 'axios';
 export const fetch = () => axios.post(
     '/api/scrapping/init',
     {
-        "scrappingSourceId": "e86fb98a-75f0-4689-bc4d-395cf7d0f749",
+        "scrappingSourceId": "ac54cffb-eeeb-43d1-8c2b-eb8238f34342",
         "minPageId": 1,
         "maxPageId": 1
     }
