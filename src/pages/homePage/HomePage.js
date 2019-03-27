@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
+import * as actions from '../../modules/actions/actions';
+
 import './HomePage.scss';
 
 import {
@@ -15,9 +19,7 @@ import {
     HomeLayout
 } from '../../templates';
 
-import {fetch} from '../../api';
-
-export class HomePage extends Component {
+class HomePage extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -25,21 +27,19 @@ export class HomePage extends Component {
         }
     }
 
+    componentDidMount() {
+        this.props.actions.fetchStuff();
+    }
+
     onFetch() {
-        fetch()
-            .then(response =>
-                this.setState({
-                    data: response.data.contentsPerPage[0].contentPerItem
-                })
-            )
+
     }
 
     onDelete() {
-        this.setState({data: []})
     }
 
     render() {
-        const data = this.state.data;
+
         return (
             <HomeLayout>
                 <Header
@@ -55,7 +55,7 @@ export class HomePage extends Component {
                 <MainHome
                     id={'main'}
                     area={'main'}
-                    data={data}
+                    data={[]}
                 />
                 <PrimaryBtnWithCell
                     id={'delete'}
@@ -71,3 +71,20 @@ export class HomePage extends Component {
         );
     }
 }
+
+function mapStateToProps(state) {
+    return {
+        stuffs: state.stuffs
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        actions: bindActionCreators(actions, dispatch)
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(HomePage);
