@@ -39,7 +39,6 @@ class HomePage extends Component {
     }
 
     render() {
-
         return (
             <HomeLayout>
                 <Header
@@ -74,7 +73,7 @@ class HomePage extends Component {
 
 function mapStateToProps(state) {
     return {
-        stuffs: state.stuffs
+        data: state.data
     };
 }
 

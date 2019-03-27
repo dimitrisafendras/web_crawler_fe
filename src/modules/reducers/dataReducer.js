@@ -1,6 +1,8 @@
 import initialState from './initialState';
 import {FETCH_STUFF, RECEIVE_STUFF} from '../actions/actionTypes';
 
+//FIXME refactor
+
 export default function stuff(state = initialState, action) {
     let newState;
     switch (action.type) {
@@ -8,7 +10,7 @@ export default function stuff(state = initialState, action) {
             console.log('FETCH_STUFF Action');
             return action;
         case RECEIVE_STUFF:
-            newState = action.data;
+            newState = action.payload;
             console.log('RECEIVE_STUFF Action');
             return newState;
         default:
