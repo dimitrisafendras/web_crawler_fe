@@ -30,7 +30,7 @@ class HomePage extends Component {
     }
 
     render() {
-        const { data=[] } = this.props;
+        const { fetchedData=[] } = this.props;
         return (
             <HomeLayout>
                 <Header
@@ -46,7 +46,7 @@ class HomePage extends Component {
                 <MainHome
                     id={'main'}
                     area={'main'}
-                    data={data}
+                    data={fetchedData}
                 />
                 <PrimaryBtnWithCell
                     id={'delete'}
@@ -65,7 +65,7 @@ class HomePage extends Component {
 
 function mapStateToProps(state) {
     return {
-        data: state.data
+        fetchedData: state.dataStore.fetchedData
     };
 }
 
