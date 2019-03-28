@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux';
-import data from './dataReducer';
+import {dataStore} from './dataReducer';
 
 const rootReducer = combineReducers({
-    data,
+    dataStore,
 });
 
 export default rootReducer;
