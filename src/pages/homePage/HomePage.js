@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
+import * as actions from '../../modules/actions/actions';
+
 import './HomePage.scss';
 
 import {
@@ -15,31 +19,18 @@ import {
     HomeLayout
 } from '../../templates';
 
-import {fetch} from '../../api';
-
-export class HomePage extends Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            data: [],
-        }
-    }
+class HomePage extends Component {
 
     onFetch() {
-        fetch()
-            .then(response =>
-                this.setState({
-                    data: response.data.contentsPerPage[0].contentPerItem
-                })
-            )
+        this.props.actions.fetchStuff();
     }
 
     onDelete() {
-        this.setState({data: []})
+        this.props.actions.deleteData();
     }
 
     render() {
-        const data = this.state.data;
+        const { fetchedData=[] } = this.props;
         return (
             <HomeLayout>
                 <Header
@@ -55,7 +46,7 @@ export class HomePage extends Component {
                 <MainHome
                     id={'main'}
                     area={'main'}
-                    data={data}
+                    data={fetchedData}
                 />
                 <PrimaryBtnWithCell
                     id={'delete'}
@@ -71,3 +62,21 @@ export class HomePage extends Component {
         );
     }
 }
+
+//FIXME create compose for map, dispach and connect
+function mapStateToProps(state) {
+    return {
+        fetchedData: state.dataStore.fetchedData
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        actions: bindActionCreators(actions, dispatch)
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(HomePage);
