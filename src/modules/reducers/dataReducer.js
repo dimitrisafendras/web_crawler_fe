@@ -1,11 +1,10 @@
 import initialState from './initialState';
-import {FETCH_STUFF, RECEIVE_STUFF,  DELETE_STUFF} from '../actions/actionTypes';
+import { RECEIVE_DATA,  DELETE_DATA } from '../actions/actionTypes';
 
 //FIXME refactor with config obj
 const actionHandlers = {
-    [FETCH_STUFF]: (state) => state,
-    [RECEIVE_STUFF]: (state, fetchedData) => ({...state, fetchedData}),
-    [DELETE_STUFF]: () => initialState
+    [RECEIVE_DATA]: (state, fetchedData) => ({...state, fetchedData}),
+    [DELETE_DATA]: () => initialState
 };
 
 //FIXME refactor extract

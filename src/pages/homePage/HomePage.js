@@ -22,7 +22,7 @@ import {
 class HomePage extends Component {
 
     onFetch() {
-        this.props.actions.fetchStuff();
+        this.props.actions.fetchData();
     }
 
     onDelete() {
