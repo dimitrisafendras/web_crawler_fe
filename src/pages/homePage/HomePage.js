@@ -20,25 +20,17 @@ import {
 } from '../../templates';
 
 class HomePage extends Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            data: [],
-        }
-    }
 
-    componentDidMount() {
+    onFetch() {
         this.props.actions.fetchStuff();
     }
 
-    onFetch() {
-
-    }
-
     onDelete() {
+        this.props.actions.deleteStuff();
     }
 
     render() {
+        const { data=[] } = this.props;
         return (
             <HomeLayout>
                 <Header
@@ -54,7 +46,7 @@ class HomePage extends Component {
                 <MainHome
                     id={'main'}
                     area={'main'}
-                    data={[]}
+                    data={data}
                 />
                 <PrimaryBtnWithCell
                     id={'delete'}
