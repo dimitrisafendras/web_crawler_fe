@@ -1,3 +1,4 @@
-export const FETCH_STUFF = 'FETCH_STUFF';
-export const RECEIVE_STUFF = 'RECEIVE_STUFF';
-export const DELETE_STUFF = 'DELETE_STUFF';
+//FIXME refactor with config
+export const FETCH_DATA = 'FETCH_DATA';
+export const RECEIVE_DATA = 'RECEIVE_DATA';
+export const DELETE_DATA = 'DELETE_DATA';
