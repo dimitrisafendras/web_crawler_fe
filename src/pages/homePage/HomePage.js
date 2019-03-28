@@ -26,7 +26,7 @@ class HomePage extends Component {
     }
 
     onDelete() {
-        this.props.actions.deleteStuff();
+        this.props.actions.deleteData();
     }
 
     render() {
@@ -63,6 +63,7 @@ class HomePage extends Component {
     }
 }
 
+//FIXME create compose for map, dispach and connect
 function mapStateToProps(state) {
     return {
         fetchedData: state.dataStore.fetchedData
