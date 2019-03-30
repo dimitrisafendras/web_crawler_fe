@@ -7,15 +7,14 @@ export const HomeLayout = (
         children
     }) =>
     <Grid
-        minHeight={'100vh'}
+        minHeight={'100%'}
         id={'layout'}
         columns={'100px auto auto 100px'}
-        rows={'48px auto 40px'}
         gap={'14px 0'}
         areas={[
-            'header header header header',
             'fetch main main delete',
-            'footer footer footer footer'
-        ]}>
+        ]}
+        className={'HomeLayout'}
+    >
         {children}
     </Grid>;

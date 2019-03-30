@@ -13,6 +13,9 @@ export const fetchDataEpic = action$ => {
         .ofType(FETCH_DATA)
         .switchMap(()=> {
             return fetch()
+                .then(
+                response => console.log('re', response)
+            ).catch(() => console.log('>>>', ))
         })
         .map(data => receiveData(data.data.contentsPerPage[0].contentPerItem))
 };
