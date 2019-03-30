@@ -1,9 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-export const FilterLink = ({ filter, children }) => (
+export const Nav = ({ navLink, children }) => (
     <NavLink
-        to={filter === 'SHOW_ALL' ? '/' : `/${filter}`}
+        to={navLink}
         activeStyle={{
             textDecoration: 'none',
             color: 'black'

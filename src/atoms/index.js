@@ -6,7 +6,7 @@ import {H1} from './h1/H1';
 import {H2} from './h2/H2';
 import {H3} from './h3/H3';
 import {FlexContainer} from './flexContainer/FlexContainer';
-import {FilterLink} from './filterLink/FilterLink';
+import {Nav} from './filterLink/Nav';
 
 export {
     PrimaryButton,
@@ -17,6 +17,6 @@ export {
     H2,
     H3,
     FlexContainer,
-    FilterLink,
+    Nav,
 }
 

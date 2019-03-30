@@ -1,12 +1,15 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import App from './App';
 import {Provider} from 'react-redux';
+import {AboutUsPage, HomePage, App} from './pages';
 
 export const Root = ({ store }) => (
         <Provider store={store}>
             <Router>
-                <Route path="/:filter?" component={App} />
+                <App>
+                    <Route path='/home' component={HomePage}/>
+                    <Route path='/aboutUs' component={AboutUsPage}/>
+                </App>
             </Router>
         </Provider>
     )

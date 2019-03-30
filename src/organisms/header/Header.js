@@ -1,5 +1,5 @@
 import React from 'react';
-import {Cell, Icon} from '../../atoms';
+import {Cell, Icon, Nav} from '../../atoms';
 import nuke from '../../static/nuke.svg'
 import './Header.scss';
 
@@ -18,5 +18,7 @@ export const Header = (
             id={'nukeIcon'}
             icon={nuke}
         />
+        <Nav navLink={'/home'}/>
+        <Nav navLink={'/aboutUs'}/>
     </Cell>;
 
