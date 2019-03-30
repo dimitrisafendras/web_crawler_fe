@@ -13,5 +13,5 @@ export const Footer = (
         area={area}
         className={`Footer ${className}`}
     >
-        Footer
+
     </Cell>;

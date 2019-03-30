@@ -10,8 +10,6 @@ import {
 } from '../../molecules';
 
 import {
-    Header,
-    Footer,
     MainHome,
 } from '../../organisms';
 
@@ -33,10 +31,6 @@ class HomePage extends Component {
         const { fetchedData=[] } = this.props;
         return (
             <HomeLayout>
-                <Header
-                    id={'header'}
-                    area={'header'}
-                />
                 <PrimaryBtnWithCell
                     id={'fetch'}
                     area={'fetch'}
@@ -53,10 +47,6 @@ class HomePage extends Component {
                     area={'delete'}
                     onClick={()=> this.onDelete()}
                     text={'Delete'}
-                />
-                <Footer
-                    id={'footer'}
-                    area={'footer'}
                 />
             </HomeLayout>
         );

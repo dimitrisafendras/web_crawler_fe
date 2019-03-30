@@ -1,8 +1,8 @@
 import React from 'react';
-import './HomeLayout.scss'
+import './AboutUsLayout.scss'
 import {Grid} from '../../atoms';
 
-export const HomeLayout = (
+export const AboutUsLayout = (
     {
         children
     }) =>
@@ -12,9 +12,9 @@ export const HomeLayout = (
         columns={'100px auto auto 100px'}
         gap={'14px 0'}
         areas={[
-            'fetch main main delete',
+            'main main main main',
         ]}
-        className={'HomeLayout'}
+        className={'AboutUsLayout'}
     >
         {children}
     </Grid>;

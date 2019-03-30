@@ -8,11 +8,15 @@ import {
     FETCH_DATA
 } from '../modules/actions/actionTypes';
 
+//FIXME REFACTOR AND CLEAN
 export const fetchDataEpic = action$ => {
     return action$
         .ofType(FETCH_DATA)
         .switchMap(()=> {
             return fetch()
+                .then(
+                response => console.log('re', response)
+            ).catch(() => console.log('>>>', ))
         })
         .map(data => receiveData(data.data.contentsPerPage[0].contentPerItem))
 };
