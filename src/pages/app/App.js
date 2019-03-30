@@ -1,17 +1,19 @@
-import React, { Component } from 'react';
-import '../../App.scss';
+import React  from 'react';
+import './App.scss';
 import {AppLayout} from '../../templates/appLayout/AppLayout';
 import {Footer, Header} from '../../organisms';
+import {Cell} from '../../atoms';
 
-export class App extends Component {
-    render() {
-        console.log('here', )
-        return (
-            <AppLayout className="App">
-                <Header area={'header'}/>
-                {this.props.children}
-                <Footer area={'footer'}/>
-            </AppLayout>
-        );
-    }
-}
+export const App = (
+    {
+        id,
+        className,
+        children,
+    }) =>
+    <AppLayout className="App">
+        <Header area={'header'}/>
+        <Cell area={'main'}>
+            {children}
+        </Cell>
+        <Footer area={'footer'}/>
+    </AppLayout>;
