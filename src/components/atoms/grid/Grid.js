@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {
     getFr,
     formatAreas,
-} from '../../utils/utils';
+} from '../../../utils/utils';
 
 import './Grid.scss'
 

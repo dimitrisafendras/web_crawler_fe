@@ -1,6 +1,6 @@
 import React from 'react';
 import {Cell, FlexContainer, Icon, Nav} from '../../atoms';
-import nuke from '../../static/nuke.svg'
+import nuke from '../../../static/nuke.svg'
 import './Header.scss';
 
 export const Header = (

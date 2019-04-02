@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import {Provider} from 'react-redux';
-import {AboutUsPage, HomePage, App} from './pages';
+import {AboutUsPage, HomePage, App} from './components/pages';
 
 export const Root = ({ store }) => (
         <Provider store={store}>
