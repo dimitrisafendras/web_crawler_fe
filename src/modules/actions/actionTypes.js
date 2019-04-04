@@ -1,4 +1,14 @@
-//FIXME refactor with config
-export const FETCH_DATA = 'FETCH_DATA';
-export const RECEIVE_DATA = 'RECEIVE_DATA';
-export const DELETE_DATA = 'DELETE_DATA';
+import {actionTypeCreator} from '../../utils/utils';
+
+const ACTION_TYPES = [
+    'FETCH_DATA',
+    'RECEIVE_DATA',
+    'DELETE_DATA',
+];
+
+export const {
+    FETCH_DATA,
+    RECEIVE_DATA,
+    DELETE_DATA
+} = actionTypeCreator(ACTION_TYPES);
+
