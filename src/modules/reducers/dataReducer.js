@@ -1,7 +1,6 @@
 import initialState from './initialState';
 import { RECEIVE_DATA,  DELETE_DATA } from '../actions/actionTypes';
 
-//FIXME refactor with config obj
 const actionHandlers = {
     [RECEIVE_DATA]: (state, fetchedData) => ({...state, fetchedData}),
     [DELETE_DATA]: () => initialState
