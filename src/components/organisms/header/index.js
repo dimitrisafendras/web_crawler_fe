@@ -20,7 +20,8 @@ export const Header = (
         >
             <Nav navLink={'/'}>
                 <Icon
-                    id={'nukeIcon'}
+                    id={'empireIcon'}
+                    className={'HeaderLogo'}
                     icon={empireIcon}
                 />
             </Nav>

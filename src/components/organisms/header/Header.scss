@@ -3,8 +3,12 @@
 .Header {
   min-height: 48px;
   max-height: 100px;
-  background-color: rgba($white, 0.5);
+  background-color: rgba($black, 0.5);
   .NavContainer {
     padding: 0 10px;
+  }
+  .HeaderLogo {
+    background-color: rgba($white, 0.6);
+    border-radius: 50px;
   }
 }

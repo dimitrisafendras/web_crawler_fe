@@ -4,7 +4,7 @@ import './Icon.scss'
 export const Icon = (
     {
         id,
-        className,
+        className = '',
         icon,
         height,
         width
