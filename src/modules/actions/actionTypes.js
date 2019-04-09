@@ -1,4 +1,4 @@
-import {actionTypeCreator} from '../../utils/utils';
+import {actionTypeCreator} from '../../utils';
 
 const ACTION_TYPES = [
     'INIT_CRAWLER',
