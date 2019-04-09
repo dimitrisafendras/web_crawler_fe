@@ -1,6 +1,6 @@
-import {ItemList} from '../organisms/itemList/ItemList';
-import {Item} from './item/Item';
-import {PrimaryBtnWithCell} from './primaryBtnWithCell/PrimaryBtnWithCell';
+import {ItemList} from '../organisms/itemList';
+import {Item} from './item';
+import {PrimaryBtnWithCell} from './primaryBtnWithCell';
 
 export {
     ItemList,

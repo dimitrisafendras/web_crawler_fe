@@ -1,5 +1,5 @@
-import {HomeLayout} from './homeLayout/HomeLayout';
-import {AboutUsLayout} from './aboutUsLayout/AboutUsLayout';
+import {HomeLayout} from './homeLayout';
+import {AboutUsLayout} from './aboutUsLayout';
 
 export {
     HomeLayout,

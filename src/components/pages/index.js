@@ -1,6 +1,6 @@
-import HomePage from './homePage/HomePage';
-import {AboutUsPage} from './aboutUsPage/AboutUsPage';
-import {App} from './app/App';
+import HomePage from './homePage';
+import {AboutUsPage} from './aboutUsPage';
+import {App} from './app';
 
 export {
     HomePage,

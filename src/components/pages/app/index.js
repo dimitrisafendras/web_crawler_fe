@@ -1,6 +1,6 @@
 import React  from 'react';
 import './App.scss';
-import {AppLayout} from '../../templates/appLayout/AppLayout';
+import {AppLayout} from '../../templates/appLayout';
 import {Footer, Header} from '../../organisms';
 import {Cell} from '../../atoms';
 

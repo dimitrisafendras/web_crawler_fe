@@ -1,12 +1,12 @@
 import {PrimaryButton} from './buttons';
-import {Grid} from './grid/Grid';
-import {Cell} from './cell/Cell';
-import {Icon} from './icon/Icon';
-import {H1} from './h1/H1';
-import {H2} from './h2/H2';
-import {H3} from './h3/H3';
-import {FlexContainer} from './flexContainer/FlexContainer';
-import {Nav} from './nav/Nav';
+import {Grid} from './grid';
+import {Cell} from './cell';
+import {Icon} from './icon';
+import {H1} from './h1';
+import {H2} from './h2';
+import {H3} from './h3';
+import {FlexContainer} from './flexContainer';
+import {Nav} from './nav';
 
 export {
     PrimaryButton,
