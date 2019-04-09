@@ -1,0 +1,16 @@
+@import '../../../theme/Colors';
+@import '../../../theme/Typography';
+
+.NavLink {
+  font-size: 16px;
+  font-family: $primaryTypo;
+  color: rgba($white, 0.8);
+
+  &--normal {
+    text-decoration: none;
+  }
+  &--active {
+    text-decoration: underline;
+    color: $white;
+  }
+}

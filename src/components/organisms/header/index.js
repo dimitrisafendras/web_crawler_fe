@@ -25,7 +25,9 @@ export const Header = (
                     icon={empireIcon}
                 />
             </Nav>
-            <Container>
+            <Container
+                className={'NavInnerContainer'}
+            >
                 <Nav navLink={'/home'}>
                     Home
                 </Nav>
