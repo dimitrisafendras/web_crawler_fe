@@ -20,7 +20,7 @@ import {
 class HomePage extends Component {
 
     onFetch() {
-        this.props.actions.fetchData();
+        this.props.actions.initCrawler();
     }
 
     onDelete() {

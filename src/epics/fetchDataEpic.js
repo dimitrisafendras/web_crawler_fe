@@ -1,22 +1,36 @@
-import 'rxjs/add/operator/switchMap';
-import 'rxjs/add/operator/map';
-import 'rxjs/add/observable/of';
-import 'rxjs/add/operator/catch';
-import { fetch } from '../api';
-import { receiveData } from '../modules/actions/actions';
+import { map, mergeMap } from 'rxjs/operators';
+import { ofType, combineEpics } from 'redux-observable';
+
 import {
+    initSource,
+    fetchFromSource
+} from '../api';
+
+import {
+    receiveData,
+    fetchData
+} from '../modules/actions/actions';
+
+import {
+    INIT_CRAWLER,
     FETCH_DATA
 } from '../modules/actions/actionTypes';
 
-//FIXME REFACTOR AND CLEAN
-export const fetchDataEpic = action$ => {
-    return action$
-        .ofType(FETCH_DATA)
-        .switchMap(()=> {
-            return fetch()
-                .then(
-                response => console.log('re', response)
-            ).catch(() => console.log('>>>', ))
-        })
-        .map(data => receiveData(data.data.contentsPerPage[0].contentPerItem))
-};
+const initCrawler = action$ =>  action$.pipe(
+    ofType(INIT_CRAWLER),
+    mergeMap(()=> initSource()),
+    map(() => fetchData())
+);
+
+const getData = action$ => action$.pipe(
+    ofType(FETCH_DATA),
+    mergeMap( ()=> fetchFromSource()),
+    map(data => receiveData(data.data))
+);
+
+
+
+export const fetchDataEpic = combineEpics(
+    initCrawler,
+    getData,
+);
