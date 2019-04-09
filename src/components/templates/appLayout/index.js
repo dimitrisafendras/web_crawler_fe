@@ -17,7 +17,7 @@ export const AppLayout = (
             'main main main main',
             'footer footer footer footer'
         ]}
-        className={'AboutUsLayout'}
+        className={'AppLayout'}
     >
         {children}
     </Grid>;

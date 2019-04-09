@@ -1,10 +1,10 @@
 import React from 'react';
 import './FlexContainer.scss'
-
+//FIXME
 export const FlexContainer = (
     {
         id,
-        className,
+        className = '',
         children,
         column,
         noWrap,

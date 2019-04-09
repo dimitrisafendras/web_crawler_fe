@@ -4,7 +4,7 @@ import './Container.scss'
 export const Container = (
     {
         id,
-        className,
+        className = '',
         children
     }) =>
     <div

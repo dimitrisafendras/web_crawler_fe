@@ -1,6 +1,6 @@
 import React from 'react';
 import {Cell, Container, FlexContainer, Icon, Nav} from '../../atoms';
-import nuke from '../../../static/nuke.svg'
+import empireIcon from '../../../static/icons/galactic-empire.svg'
 import './Header.scss';
 
 export const Header = (
@@ -21,7 +21,7 @@ export const Header = (
             <Nav navLink={'/'}>
                 <Icon
                     id={'nukeIcon'}
-                    icon={nuke}
+                    icon={empireIcon}
                 />
             </Nav>
             <Container>
