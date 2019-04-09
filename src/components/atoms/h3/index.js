@@ -5,7 +5,6 @@ export const H3 = (
     {
         id,
         className = '',
-        children,
         center,
         text
     }) =>

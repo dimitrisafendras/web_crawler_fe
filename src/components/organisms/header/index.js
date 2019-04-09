@@ -1,5 +1,5 @@
 import React from 'react';
-import {Cell, FlexContainer, Icon, Nav} from '../../atoms';
+import {Cell, Container, FlexContainer, Icon, Nav} from '../../atoms';
 import nuke from '../../../static/nuke.svg'
 import './Header.scss';
 
@@ -14,19 +14,24 @@ export const Header = (
         area={area}
         className={`Header ${className}`}
     >
-        <FlexContainer>
+        <FlexContainer
+            justifyContent={'space-between'}
+            className={'NavContainer'}
+        >
             <Nav navLink={'/'}>
                 <Icon
                     id={'nukeIcon'}
                     icon={nuke}
                 />
             </Nav>
-            <Nav navLink={'/home'}>
-                Home
-            </Nav>
-            <Nav navLink={'/aboutUs'}>
-                About Us
-            </Nav>
+            <Container>
+                <Nav navLink={'/home'}>
+                    Home
+                </Nav>
+                <Nav navLink={'/aboutUs'}>
+                    About Us
+                </Nav>
+            </Container>
         </FlexContainer>
     </Cell>;
 

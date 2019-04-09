@@ -5,7 +5,6 @@ export const H2 = (
     {
         id,
         className = '',
-        children,
         center,
         text,
     }) =>

@@ -1,7 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-export const Nav = ({ navLink, children }) => (
+export const Nav = (
+    {
+        navLink,
+        children
+    }) =>
     <NavLink
         to={navLink}
         activeStyle={{
@@ -10,5 +14,4 @@ export const Nav = ({ navLink, children }) => (
         }}
     >
         {children}
-    </NavLink>
-);
+    </NavLink>;
