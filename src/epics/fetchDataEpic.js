@@ -9,7 +9,7 @@ import {
 import {
     receiveData,
     fetchData
-} from '../modules/actions/actions';
+} from '../modules/actions';
 
 import {
     INIT_CRAWLER,
