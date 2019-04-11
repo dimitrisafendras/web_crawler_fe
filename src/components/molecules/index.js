@@ -1,9 +1,3 @@
-import {ItemList} from '../organisms/itemList';
-import {Item} from './item';
-import {PrimaryBtnWithCell} from './primaryBtnWithCell';
-
-export {
-    ItemList,
-    Item,
-    PrimaryBtnWithCell,
-}
+export {ItemList} from '../organisms/itemList';
+export {Item} from './item';
+export {PrimaryBtnWithCell} from './primaryBtnWithCell';

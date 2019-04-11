@@ -1,9 +1,3 @@
-import {Header} from './header';
-import {Footer} from './footer';
-import {MainHome} from './mainHome';
-
-export {
-    Header,
-    Footer,
-    MainHome,
-}
+export {Header} from './header';
+export {Footer} from './footer';
+export {MainHome} from './mainHome';

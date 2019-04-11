@@ -1,7 +1,2 @@
-import {HomeLayout} from './homeLayout';
-import {AboutUsLayout} from './aboutUsLayout';
-
-export {
-    HomeLayout,
-    AboutUsLayout,
-}
+export {HomeLayout} from './homeLayout';
+export {AboutUsLayout} from './aboutUsLayout';

@@ -1,6 +1,7 @@
 @import '../../../../theme/Colors';
 @import '../../../../theme/Typography';
 
+//FIXME: delete import use props
 .PrimaryButton {
   height: 100%;
   max-height: calc(100vh - 62px);

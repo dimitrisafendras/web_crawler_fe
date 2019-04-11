@@ -1,2 +1,1 @@
-import {PrimaryButton} from './primaryButton';
-export {PrimaryButton}
+export {PrimaryButton} from './primaryButton';

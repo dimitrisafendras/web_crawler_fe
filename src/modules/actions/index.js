@@ -6,7 +6,7 @@ import {
     FETCH_DATA,
 } from './actionTypes';
 
-//FIXME create config
+//FIXME create 2configs one for actions one for actionsWithPayload
 export const initCrawler = createAction(INIT_CRAWLER);
 export const receiveData = createAction(RECEIVE_DATA, data => data);
 export const deleteData = createAction(DELETE_DATA);
