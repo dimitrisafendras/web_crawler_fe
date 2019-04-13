@@ -66,7 +66,7 @@ function mapDispatchToProps(dispatch) {
     };
 }
 
-export default connect(
+export const ConnectedHomePage = connect(
     mapStateToProps,
     mapDispatchToProps
 )(HomePage);
