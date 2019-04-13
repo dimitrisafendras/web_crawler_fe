@@ -4,12 +4,12 @@ import {Provider} from 'react-redux';
 import {AboutUsPage, ConnectedHomePage, App} from './components/pages';
 
 export const Root = ({ store }) => (
-        <Provider store={store}>
-            <Router>
-                <App>
-                    <Route path='/home' component={ConnectedHomePage}/>
-                    <Route path='/aboutUs' component={AboutUsPage}/>
-                </App>
-            </Router>
-        </Provider>
-    )
+    <Provider store={store}>
+        <Router>
+            <App>
+                <Route exact path='/' component={ConnectedHomePage}/>
+                <Route path='/aboutUs' component={AboutUsPage}/>
+            </App>
+        </Router>
+    </Provider>
+);

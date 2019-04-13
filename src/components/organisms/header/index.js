@@ -28,9 +28,6 @@ export const Header = (
             <Container
                 className={'NavInnerContainer'}
             >
-                <Nav navLink={'/home'}>
-                    Home
-                </Nav>
                 <Nav navLink={'/aboutUs'}>
                     About Us
                 </Nav>
