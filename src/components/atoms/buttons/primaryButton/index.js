@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import './PrimaryButton.scss';
 
-export const PrimaryButton = ({ id, className, onClick, text }) => (
+export const PrimaryButton = ({ id, className = '', onClick, text }) => (
   <button
     type="submit"
     id={id}
@@ -19,11 +19,4 @@ PrimaryButton.propTypes = {
   className: PropTypes.string,
   onClick: PropTypes.func,
   text: PropTypes.string,
-};
-
-PrimaryButton.defaultProps = {
-  id: '',
-  className: '',
-  onClick: '',
-  text: '',
 };

@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import './Cell.scss';
 
 export const Cell = ({
@@ -43,17 +42,16 @@ Cell.propTypes = {
   className: PropTypes.string,
   width: PropTypes.string,
   height: PropTypes.string,
+  gridColumnStart: PropTypes.string,
+  gridRowStart: PropTypes.string,
+  gridColumnEnd: PropTypes.string,
+  gridRowEnd: PropTypes.string,
+  centerContent: PropTypes.bool,
   area: PropTypes.string,
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node,
+  ]),
   alignSelf: PropTypes.string,
   justifySelf: PropTypes.string,
-};
-
-Cell.defaultProps = {
-  id: '',
-  className: '',
-  width: '',
-  height: '',
-  area: '',
-  alignSelf: '',
-  justifySelf: '',
 };

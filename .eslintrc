@@ -54,6 +54,7 @@
     "react/jsx-closing-bracket-location": 1,
     "no-shadow": 0,
     "react/no-danger": 0,
+    "react/require-default-props": 0,
     "import/prefer-default-export": 0,
     "import/no-webpack-loader-syntax": 0,
     "react/jsx-space-before-closing": 0,
