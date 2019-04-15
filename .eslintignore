@@ -5,3 +5,4 @@ dist/**
 src/index.html
 *.spec.js
 **/*.test.js
+config/**
