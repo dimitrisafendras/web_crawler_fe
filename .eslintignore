@@ -6,3 +6,5 @@ src/index.html
 *.spec.js
 **/*.test.js
 config/**
+src/serviceWorker.js
+src/index.js

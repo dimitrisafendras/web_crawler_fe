@@ -35,12 +35,13 @@
   },
   "rules": {
     "prettier/prettier": ["error", {
-      jsxBracketSameLine: true,
+      jsxBracketSameLine: false,
       bracketSpacing: true,
       trailingComma: "all",
       singleQuote: true,
-      semi: true
+      semi: true,
     }],
+    "semi": "warn",
     "arrow-parens": 0,
     "no-undef": 0,
     "import/no-named-as-default": 0,
@@ -50,7 +51,7 @@
     "import/no-unresolved": 0,
     "import/extensions": 0,
     "react/jsx-filename-extension": 0,
-    "react/jsx-closing-bracket-location": 0,
+    "react/jsx-closing-bracket-location": 1,
     "no-shadow": 0,
     "react/no-danger": 0,
     "import/prefer-default-export": 0,

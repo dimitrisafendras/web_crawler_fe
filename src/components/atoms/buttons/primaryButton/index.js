@@ -1,19 +1,29 @@
 import React from 'react';
-import './PrimaryButton.scss'
+import PropTypes from 'prop-types';
 
-export const PrimaryButton = (
-    {
-        id,
-        className,
-        onClick,
-        text,
-    }) =>
-    <button
-        id={id}
-        className={`PrimaryButton ${className}`}
-        onClick={onClick}
-    >
-        {text}
-    </button>;
+import './PrimaryButton.scss';
 
+export const PrimaryButton = ({ id, className, onClick, text }) => (
+  <button
+    type="submit"
+    id={id}
+    className={`PrimaryButton ${className}`}
+    onClick={onClick}
+  >
+    {text}
+  </button>
+);
 
+PrimaryButton.propTypes = {
+  id: PropTypes.string,
+  className: PropTypes.string,
+  onClick: PropTypes.func,
+  text: PropTypes.string,
+};
+
+PrimaryButton.defaultProps = {
+  id: '',
+  className: '',
+  onClick: '',
+  text: '',
+};
