@@ -50,6 +50,8 @@ export const Grid = ({
 );
 
 Grid.propTypes = {
+  id: PropTypes.string,
+  minHeight: PropTypes.string,
   className: PropTypes.string,
   columns: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   columnGap: PropTypes.string,
@@ -64,4 +66,8 @@ Grid.propTypes = {
   justifyContent: PropTypes.string,
   alignContent: PropTypes.string,
   alignItems: PropTypes.string,
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node,
+  ]),
 };

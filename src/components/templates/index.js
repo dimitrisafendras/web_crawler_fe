@@ -1,2 +1,2 @@
-export {HomeLayout} from './homeLayout';
-export {AboutUsLayout} from './aboutUsLayout';
+export { HomeLayout } from './homeLayout';
+export { AboutUsLayout } from './aboutUsLayout';

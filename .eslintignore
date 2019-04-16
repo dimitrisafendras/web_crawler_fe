@@ -8,3 +8,4 @@ src/index.html
 config/**
 src/serviceWorker.js
 src/index.js
+src/modules/store/store.js
