@@ -9,6 +9,7 @@ export const Item = ({ id, className = '', data }) => (
     <H3 center text={`${data.name}`} />
     <H3 text={`New price ${data.newPrice} $`} />
     <H3 text={`Old price ${data.oldPrice} $`} />
+
     <H3 text={`Discount ${data.discountPercentage} %`} />
   </FlexContainer>
 );
