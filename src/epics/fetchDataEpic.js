@@ -1,36 +1,24 @@
 import { map, mergeMap } from 'rxjs/operators';
 import { ofType, combineEpics } from 'redux-observable';
 
-import {
-    initSource,
-    fetchFromSource
-} from '../api';
+import { initSource, fetchFromSource } from '../api';
 
-import {
-    receiveData,
-    fetchData
-} from '../modules/actions';
+import { receiveData, fetchData } from '../modules/actions';
 
-import {
-    INIT_CRAWLER,
-    FETCH_DATA
-} from '../modules/actions/actionTypes';
+import { INIT_CRAWLER, FETCH_DATA } from '../modules/actions/actionTypes';
 
-const initCrawler = action$ =>  action$.pipe(
+const initCrawler = action$ =>
+  action$.pipe(
     ofType(INIT_CRAWLER),
-    mergeMap(()=> initSource()),
+    mergeMap(() => initSource()),
     map(() => fetchData())
-);
+  );
 
-const getData = action$ => action$.pipe(
+const getData = action$ =>
+  action$.pipe(
     ofType(FETCH_DATA),
-    mergeMap( ()=> fetchFromSource()),
+    mergeMap(() => fetchFromSource()),
     map(data => receiveData(data.data))
-);
+  );
 
-
-
-export const fetchDataEpic = combineEpics(
-    initCrawler,
-    getData,
-);
+export const fetchDataEpic = combineEpics(initCrawler, getData);
