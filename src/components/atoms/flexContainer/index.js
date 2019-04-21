@@ -34,7 +34,7 @@ FlexContainer.propTypes = {
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
   ]),
-  column: PropTypes.string,
+  column: PropTypes.bool,
   noWrap: PropTypes.string,
   justifyContent: PropTypes.string,
   alignItems: PropTypes.string,

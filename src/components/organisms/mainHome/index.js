@@ -14,5 +14,5 @@ MainHome.propTypes = {
   id: PropTypes.string,
   className: PropTypes.string,
   area: PropTypes.string,
-  data: PropTypes.array,
+  data: PropTypes.object,
 };

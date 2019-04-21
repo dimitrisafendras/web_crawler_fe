@@ -5,7 +5,7 @@ import { Item } from '../../molecules';
 import { Grid } from '../../atoms';
 import './ItemList.scss';
 
-export const ItemList = ({ id, className = '', data = [] }) => (
+export const ItemList = ({ id, className = '', data = {} }) => (
   <Grid
     id={id}
     className={`ItemList ${className}`}
@@ -21,5 +21,5 @@ export const ItemList = ({ id, className = '', data = [] }) => (
 ItemList.propTypes = {
   id: PropTypes.string,
   className: PropTypes.string,
-  data: PropTypes.array,
+  data: PropTypes.object,
 };

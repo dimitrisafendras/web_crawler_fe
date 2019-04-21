@@ -24,7 +24,7 @@ class HomePage extends Component {
   }
 
   render() {
-    const { fetchedData = [] } = this.props;
+    const { fetchedData = {} } = this.props;
     return (
       <HomeLayout>
         <PrimaryBtnWithCell
@@ -46,8 +46,8 @@ class HomePage extends Component {
 }
 // FIXME proper prottypes
 HomePage.propTypes = {
-  actions: PropTypes.string,
-  fetchedData: PropTypes.string,
+  actions: PropTypes.object,
+  fetchedData: PropTypes.object,
 };
 // FIXME create compose for map, dispach and connect
 function mapStateToProps(state) {
