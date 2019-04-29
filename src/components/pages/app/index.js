@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import PropTypes from 'prop-types';
-import { AppLayout } from '../../templates/appLayout';
+import { AppLayout } from '../../templates';
 import { Footer, Header } from '../../organisms';
 import { Cell } from '../../atoms';
 
