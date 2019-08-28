@@ -46,7 +46,7 @@ class HomePage extends Component {
 }
 // FIXME proper prottypes
 HomePage.propTypes = {
-  actions: PropTypes.string,
+  actions: PropTypes.any,
   fetchedData: PropTypes.string,
 };
 // FIXME create compose for map, dispach and connect
